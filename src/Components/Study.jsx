@@ -56,7 +56,7 @@ const Study = () => {
                           src="https://i.ibb.co/LkccRFs/cqupt.jpg"
                           alt=""
                         />
-                        <div className="text-center text-sm md:text-xl w-2/3">
+                        <div className="text-center text-sm md:text-xl md:w-2/3">
                           <p>
                             <span className="font-bold">Institution:- </span>
                             <span className="font-normal">
