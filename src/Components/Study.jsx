@@ -13,7 +13,9 @@ const Study = () => {
   const [showEdu, setShowEdu] = useState(true);
   return (
     <div>
-      <Title title="Study" />
+      <div data-aos="fade-up" data-aos-duration="1500">
+        <Title title="Study" />
+      </div>
       <div className="flex justify-center items-center text-lg md:text-2xl">
         <p
           className={

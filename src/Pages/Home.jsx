@@ -8,7 +8,7 @@ import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-w-[1800px] mx-auto">
       <div>
         <Navbar />
       </div>

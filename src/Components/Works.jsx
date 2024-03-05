@@ -7,7 +7,9 @@ const Works = () => {
   const [showExp, setShowExp] = useState(true);
   return (
     <div>
-      <Title title="Works" />
+      <div data-aos="fade-down" data-aos-duration="1500">
+        <Title title="Works" />
+      </div>
       <div className="flex justify-center items-center text-xl md:text-2xl">
         <p
           className={
@@ -39,6 +41,8 @@ const Works = () => {
               infiniteLoop={true}
               showThumbs={false}
               swipeable={true}
+              autoPlay={true}
+              stopOnHover={true}
             >
               {/* Project-Vibe-It */}
               <div>
@@ -53,7 +57,7 @@ const Works = () => {
                       <h1 className="text-xl md:text-2xl font-bold">
                         💼Vibe-IT
                       </h1>
-                      <p className="py-6">
+                      <div className="py-6">
                         This is a full-stack Software Company website.
                         <p className="font-bold"> features:-</p>
                         <ul className="list-disc ml-5">
@@ -79,7 +83,7 @@ const Works = () => {
                           implementation of this technology for this project
                           took 10 days.
                         </p>
-                        <p>
+                        <div>
                           <span className="font-bold">Live Link:-</span>
                           <a
                             className="link link-hover"
@@ -87,8 +91,8 @@ const Works = () => {
                           >
                             Vibe-It.com
                           </a>{" "}
-                        </p>
-                        <p>
+                        </div>
+                        <div>
                           <span className="font-bold">Code Link:-</span>
                           <a
                             className="link link-hover"
@@ -96,8 +100,8 @@ const Works = () => {
                           >
                             Vibe-It.github
                           </a>
-                        </p>
-                      </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -115,7 +119,7 @@ const Works = () => {
                       <h1 className="text-xl md:text-2xl font-bold">
                         🏨 RHR-Hotel
                       </h1>
-                      <p className="py-6">
+                      <div className="py-6">
                         This is a full-stack Hotel Management website.
                         <p className="font-bold"> features:-</p>
                         <ul className="list-disc ml-5">
@@ -140,7 +144,7 @@ const Works = () => {
                           implementation of this technology for this project
                           took 8 days.
                         </p>
-                        <p>
+                        <div>
                           <span className="font-bold">Live Link:-</span>
                           <a
                             className="link link-hover"
@@ -148,8 +152,8 @@ const Works = () => {
                           >
                             RHR-Hotel.com
                           </a>{" "}
-                        </p>
-                        <p>
+                        </div>
+                        <div>
                           <span className="font-bold">Code Link:-</span>
                           <a
                             className="link link-hover"
@@ -157,8 +161,8 @@ const Works = () => {
                           >
                             RHR-Hotel.github
                           </a>
-                        </p>
-                      </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -176,7 +180,7 @@ const Works = () => {
                       <h1 className="text-xl md:text-2xl font-bold">
                         🛒RHR-Tech
                       </h1>
-                      <p className="py-6">
+                      <div className="py-6">
                         This is a full-stack Tech selling shop website.
                         <p className="font-bold"> features:-</p>
                         <ul className="list-disc ml-5">
@@ -201,7 +205,7 @@ const Works = () => {
                           implementation of this technology for this project
                           took 6 days.
                         </p>
-                        <p>
+                        <div>
                           <span className="font-bold">Live Link:-</span>
                           <a
                             className="link link-hover"
@@ -209,8 +213,8 @@ const Works = () => {
                           >
                             RHR-Tech.com
                           </a>{" "}
-                        </p>
-                        <p>
+                        </div>
+                        <div>
                           <span className="font-bold">Code Link:-</span>
                           <a
                             className="link link-hover"
@@ -218,8 +222,8 @@ const Works = () => {
                           >
                             RHR-Tech.github
                           </a>
-                        </p>
-                      </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -261,10 +265,6 @@ const Works = () => {
                 worked as a team. My role was on the database creation and
                 maintain,also the font-end design on the project.
               </p>
-              {/* <p>
-                <span className="font-bold">Company Name:- </span>
-                Smart Software Limited
-              </p> */}
               <p>
                 <span className="font-bold">Location:- </span>chongqing, China
               </p>
