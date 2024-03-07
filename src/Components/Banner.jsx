@@ -13,8 +13,13 @@ const Banner = () => {
   };
   return (
     <div>
+      <div className="bg-red-500 fixed w-full">
+        <h1 className="text-black text-center text-2xl font-bold">
+          Design Of This Site is under construction !
+        </h1>
+      </div>
       <div
-        className=" hero pt-20 min-h-screen  "
+        className=" hero pt-20 min-h-screen"
         style={{
           backgroundImage: "url(https://i.ibb.co/gF4wRVy/banner.jpg)",
         }}

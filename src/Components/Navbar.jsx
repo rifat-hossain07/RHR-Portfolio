@@ -89,7 +89,7 @@ const Navbar = () => {
   );
   return (
     <div className="w-full">
-      <div className="navbar  absolute text-white max-w-[1700px]  ">
+      <div className="navbar  absolute text-white max-w-[1700px]  pt-8">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
